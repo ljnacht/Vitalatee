@@ -1,0 +1,96 @@
+/********** FONTS *************/
+@font-face {
+    font-family: Quicksand-Regular;
+    src: url(../assets/Quicksand-Regular.otf);
+}
+
+@font-face {
+    font-family: Quicksand-Light;
+    src: url(fonts/Quicksand-Light.otf);
+}
+
+
+/********** NAVIGATION *************/
+.navbar{
+  width: 100%;
+  height: 80px;
+  box-shadow: 1px 1px 18px -3px rgba(0, 0, 0, .3);
+}
+
+.nav-item{
+  float:left;
+  width: 17.5%;
+  padding-top: 26px;
+  color: #333;
+  font-family: Quicksand-Regular;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.logo-div{
+  float:left;
+  width: 30%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.logo{
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-bottom: -45px;
+  background-color: white;
+  box-shadow: 0 1px 19px -3px rgba(0, 0, 0, .3);
+}
+
+
+/********** CONTENT *************/
+
+.section{
+  display: none;
+  min-height: 750px;
+}
+
+#section-home{
+  display: block;
+}
+
+#section-why{
+
+}
+
+#section-story{
+
+}
+
+#section-trainers{
+
+}
+
+#section-join{
+
+}
+
+
+.banner{
+  width: 100%;
+  height: 650px;
+  margin-top: -21px;
+}
+
+.home{
+  background-image: url("../assets/banner-img.jpg");
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+
+/********** FOOTER *************/
+footer{
+  width: 100%;
+  height: 80px;
+  background-color: #333;
+}
